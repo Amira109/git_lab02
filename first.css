@@ -1,0 +1,57 @@
+body {
+    background-color: cornsilk;
+    color: darkslategray;
+    font-size: 12;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
+.parent{
+    position:absolute ;
+    margin: 40px 60px auto;
+    text-align: justify;
+    float: left;
+    /*top: 20px;*/
+    left: 110px;
+    padding: 10px;
+    
+}
+input[type=text]:focus {
+    border: 2px solid lightsalmon;
+    border-radius: 4px;
+    width:70% ;
+    height: 80%;
+    /*i cant use input image the input !!!!!*/
+    background-image: url(etc/img4.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+.search{
+    font-weight: bolder;
+    font-size: 1.9em;
+    max-height: 30px;
+    max-width: 40px;
+    top: 70px;
+    width: 50%;
+    /*padding-top: 40px;*/
+ 
+
+}
+.fixed{
+    /*padding-bottom: 10px;*/
+    position: absolute;
+    top:85px;
+    bottom: 800px;
+
+}
+.exo{
+   /* height: 709px;
+    width: 240px; */
+    image-rendering: inherit;
+    bottom: 800px;
+
+}
+.nct{
+    image-rendering: inherit;
+}
